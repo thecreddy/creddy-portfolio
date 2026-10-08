@@ -34,13 +34,8 @@ export const App: React.FC = () => {
             Hello, I'm Creddy.
           </h1>
 
-          {/* Body */}
-          <p className="mt-5 sm:mt-7 text-lg sm:text-xl md:text-2xl font-normal text-[#4A4843] leading-[1.6] sm:leading-[1.62] tracking-[-0.01em] animate-hero-body">
-            I’m building my career at the intersection of Artificial Intelligence and Cybersecurity, focused on securing AI systems, LLMs, and intelligent agents
-          </p>
-
           {/* Status Line */}
-          <div className="mt-5 sm:mt-6 flex items-center gap-2.5 text-xs sm:text-[13px] text-[#7A766F] font-normal tracking-[-0.01em] animate-hero-status">
+          <div className="mt-4 sm:mt-5 flex items-center gap-2.5 text-xs sm:text-[13px] text-[#7A766F] font-normal tracking-[-0.01em] animate-hero-status">
             <span className="relative flex h-1.5 w-1.5">
               <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-[#524E48] opacity-25"></span>
               <span className="relative inline-flex h-1.5 w-1.5 rounded-full bg-[#4A4741]"></span>
